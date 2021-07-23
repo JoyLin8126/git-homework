@@ -17,4 +17,23 @@ cout<<"Please enter a radius: ";
 int radius;
 cin>>radius;
 float PI=3.14159;
+cout>>"The area of this circle= "<<(PI*radius*radius);
+return 0;
+}
+```
+
+```cpp
+#include <iostream>
+using namespace;
+
+int main(){
+cout<<"Please enter your height(m): ";
+float height;
+cin>>height;
+cout<<"Please enter your weight(kg): ";
+float weight;
+cin>>weight;
+cout<<"Your BMI is: "<<(weight/height/height);
+return 0;
+}
 ```
